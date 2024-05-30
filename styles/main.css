@@ -430,7 +430,7 @@ body {
   cursor: pointer;
   border-radius: 15px;
   padding-bottom: 2px;
-  padding-right: 10px;
+  padding-right: 6px;
 }
 
 .tools__item_photo {
@@ -451,11 +451,323 @@ body {
   right: 41px;
 }
 
+/* Photo leafs */
+.photography__leafs {
+  min-height: 600px;
+  background-image: url("../img/leafs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.photography__leafs_block {
+  display: block;
+  max-width: 298px;
+  min-height: 80px;
+  text-align: left;
+  margin-left: 1080px;
+  padding-top: 258px;
+}
+
+.photography__leafs_block .settings__items {
+  gap: 14px;
+  margin: 0 0 0 14px;
+}
+
+.photography__leafs_block .settings__img {
+  gap: 4px;
+}
+
+/* Clients */
+.clients {
+  min-height: 500px;  
+  padding-top: 111px;
+}
+
+.clients__block {
+  display: block;
+  max-width: 600px;
+  min-height: 82px;
+  margin: 0 auto;
+}
+
+.clients__block_title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.clients__block_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px; 
+  text-align: center;
+  color: #c0c0c0;
+  margin-bottom: 41px;
+}
+
+.clients_items_logo {
+  display: flex;
+  max-width: 1168px;
+  min-height: 158px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 109px;
+  padding: 0 46px;
+}
+
+.clients_item_logo {
+  align-self: center;
+}
+
+/* Photo starfall */
+.photography__starfall {
+  min-height: 600px;
+  background-image: url("../img/starfall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.photography__starfall_block {
+  display: block;
+  max-width: 298px;
+  min-height: 80px;
+  text-align: left;
+  margin-left: 1080px;
+  padding-top: 248px;
+}
+
+.photography__starfall_block .photography__text {
+  margin-bottom: 194px;
+}
+
+.photography__starfall_block .settings__items {
+  gap: 30px;
+  margin: 0 0 0 85px;
+}
+
+.photography__starfall_block .settings__img {
+  gap: 4px;
+}
+
+/* Write */
+.write {
+  min-height: 414px;
+  padding-top: 111px;
+}
+.write__block {
+  display: block;
+  max-width: 600px;
+  min-height: 193px;
+  margin: 0 auto;
+}
+.write__block_title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px; 
+  text-align: center;
+  margin-bottom: 15px;
+}
+.write__block_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px; 
+  text-align: center;
+  color: #c0c0c0;
+  margin-bottom: 21px;
+}
+.write__block_button {
+  width: 154px;
+  height: 42px;  
+  border: none;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  border-radius: 15px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+.write__block_button-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  list-style: none;
+}
+
+/* Footer */
+.footer {
+  max-width: 1168px;
+  min-height: 452px;
+  margin: 0 auto;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 252px;
+  padding-bottom: 20px;
+}
+.footer__block {
+  padding-top: 90px;
+}
+.footer__logo {
+  align-self: self-start;
+  padding-bottom: 20px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px; 
+  color: #c0c0c0;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 17px;
+  padding-right: 102px;
+  padding-top: 74px;
+}
+.footer__items_areas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.footer__item_areas-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px; 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  text-decoration: none;
+}
+.footer__item_areas {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__items_pages {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.footer__item_pages-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px; 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  text-decoration: none;
+}
+.footer__item_pages {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__subscride {
+  max-width: 1168px;
+  min-height: 136px;  
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.footer__subscride_block {
+  max-width: 280px;
+  min-height: 60px;
+}
+.footer__subscride_title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px; 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.footer__subscride_text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #c0c0c0;
+}
+.footer__subscride_form {
+  position: relative;
+}
+.footer__subscride_form-email {
+  width: 458px;
+  height: 52px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 0;
+  margin-top: 4px;
+}
+.footer__subscride_form-buttons {
+  content: "";
+  position: absolute;
+  width: 63px;
+  height: 30px;
+  border: none;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: 11px;
+  padding: 0;
+  left: 389px;
+  bottom: 15px;
+}
+
+.footer__copyright {
+}
+.footer__copyright_text {
+}
+.footer__icons {
+}
+.footer__icon {
+}
+
+
+
+
 
 
 /* Media */
 @media screen and (max-width: 1400px) {
   .photography__sunset_block {
+    margin-left: 780px;
+  }
+
+  .photography__leafs_block {
+    margin-left: 780px;
+  }
+
+  .photography__starfall_block {
     margin-left: 780px;
   }
 }
@@ -472,6 +784,30 @@ body {
     padding: 60px 26px 20px 20px;
     margin-top: 111px;
     margin-left: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .footer__block {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin: 0 auto;
+  }
+
+  .footer__items {
+    justify-content: center;
+    gap: 17px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -491,6 +827,14 @@ body {
     margin-left: 580px;
   }
 
+  .photography__leafs_block {
+    margin-left: 580px;
+  }
+
+  .photography__starfall_block {
+    margin-left: 580px;
+  }
+
   .tools__items {
     flex-direction: column;
     align-items: center;
@@ -501,6 +845,22 @@ body {
 
   .tools__item_block {
     margin-top: 50px;
+  }
+
+  .clients_items_logo {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+
+  .footer__block {
+    padding-left: 15px;
+  }
+
+  .footer__subscride {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -524,6 +884,14 @@ body {
   }
 
   .photography__sunset_block {
+    margin-left: 380px;
+  }
+
+  .photography__leafs_block {
+    margin-left: 380px;
+  }
+
+  .photography__starfall_block {
     margin-left: 380px;
   }
 }
@@ -556,9 +924,37 @@ body {
     margin-left: 180px;
   }
 
+  .photography__leafs_block {
+    margin-left: 180px;
+  }
+
+  .photography__starfall_block {
+    margin-left: 180px;
+  }
+
   .tools__item_block {
     padding: 60px 26px 20px 0;
     margin: 0;
+  }
+
+  .write {
+    padding-top: 50px;
+  }
+
+  .footer__subscride {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .footer__subscride_block {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .footer__subscride_form-buttons {
+    left: 450px;
+    top: 15px;
   }
 }
 
@@ -579,6 +975,16 @@ body {
 
   .specialized__gallery_button-photo {
     top: 550px;
+  }
+
+  .write__block {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .footer__subscride_form-buttons {
+    left: 410px;
+    top: 15px;
   }
 }
 
@@ -603,6 +1009,24 @@ body {
 
   .photography__sunset_block {
     margin-left: 80px;
+  }
+
+  .photography__leafs_block {
+    margin-left: 80px;
+  }
+
+  .photography__starfall_block {
+    margin-left: 80px;
+  }
+
+  .footer__subscride_form-email {
+    width: 380px;
+    height: 52px;
+}
+
+  .footer__subscride_form-buttons {
+    left: 320px;
+    top: 15px;
   }
 }
 
@@ -645,9 +1069,33 @@ body {
   .specialized__gallery_text-photo {
     top: 380px;
   }
+
+  .clients__block_text {
+    padding: 0 15px;
+  }
+
+  .footer__items {
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  .footer__text {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 @media screen and (max-width: 420px) {
+  .promo__title {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
   .settings__items {
     display: flex;
     justify-content: flex-end;
@@ -674,11 +1122,56 @@ body {
     margin: 0 20px 40px 0;
   }
 
+  .photography__leafs_block {
+    margin-left: 15px;
+  }
+
+  .photography__leafs_block .settings__items {
+    margin: 0;
+  }
+
+  .photography__starfall_block {
+    margin-left: 15px;
+  }
+
+  .photography__starfall_block .settings__items {
+    margin: 0 20px 0 0;
+  }
+
   .tools__item_photo .settings__items {
     gap: 10px;
     margin: 0;
     bottom: 43px;
     right: 5px;
+  }
+
+  .write__block_title {
+    font-size: 34px;
+  }
+  .write__block_text {
+    font-size: 20px;
+  }
+
+  .footer__subscride_form-email {
+    width: 280px;
+    height: 52px;
+}
+
+  .footer__subscride_form-buttons {
+    left: 240px;
+    top: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__subscride_form-email {
+    width: 250px;
+    height: 52px;
+}
+
+  .footer__subscride_form-buttons {
+    left: 180px;
+    top: 15px;
   }
 }
 
