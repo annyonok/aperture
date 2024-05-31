@@ -390,7 +390,7 @@ body {
 .tools__item_block-signature {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px; 
+  line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #c0c0c0;
@@ -481,7 +481,7 @@ body {
 
 /* Clients */
 .clients {
-  min-height: 500px;  
+  min-height: 500px;
   padding-top: 111px;
 }
 
@@ -503,7 +503,7 @@ body {
 .clients__block_text {
   font-weight: 400;
   font-size: 24px;
-  line-height: 30px; 
+  line-height: 30px;
   text-align: center;
   color: #c0c0c0;
   margin-bottom: 41px;
@@ -560,34 +560,38 @@ body {
   min-height: 414px;
   padding-top: 111px;
 }
+
 .write__block {
   display: block;
   max-width: 600px;
   min-height: 193px;
   margin: 0 auto;
 }
+
 .write__block_title {
   font-weight: 400;
   font-size: 40px;
-  line-height: 42px; 
+  line-height: 42px;
   text-align: center;
   margin-bottom: 15px;
 }
+
 .write__block_text {
   font-weight: 400;
   font-size: 24px;
-  line-height: 30px; 
+  line-height: 30px;
   text-align: center;
   color: #c0c0c0;
   margin-bottom: 21px;
 }
+
 .write__block_button {
   width: 154px;
-  height: 42px;  
+  height: 42px;
   border: none;
   background-color: #ffffff;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   gap: 4px;
   cursor: pointer;
@@ -596,6 +600,7 @@ body {
   padding-right: 10px;
   margin: 0 auto;
 }
+
 .write__block_button-item {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -614,25 +619,30 @@ body {
   min-height: 452px;
   margin: 0 auto;
 }
+
 .footer__inner {
   display: flex;
   justify-content: space-between;
   gap: 252px;
   padding-bottom: 20px;
 }
+
 .footer__block {
   padding-top: 90px;
 }
+
 .footer__logo {
   align-self: self-start;
   padding-bottom: 20px;
 }
+
 .footer__text {
   font-weight: 400;
   font-size: 13px;
-  line-height: 20px; 
+  line-height: 20px;
   color: #c0c0c0;
 }
+
 .footer__items {
   display: flex;
   justify-content: space-between;
@@ -640,6 +650,7 @@ body {
   padding-right: 102px;
   padding-top: 74px;
 }
+
 .footer__items_areas {
   list-style: none;
   display: flex;
@@ -647,15 +658,17 @@ body {
   flex-wrap: nowrap;
   gap: 10px;
 }
+
 .footer__item_areas-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px; 
+  line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #c0c0c0;
   text-decoration: none;
 }
+
 .footer__item_areas {
   font-weight: 400;
   font-size: 14px;
@@ -663,6 +676,7 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
 .footer__items_pages {
   list-style: none;
   display: flex;
@@ -670,15 +684,17 @@ body {
   flex-wrap: nowrap;
   gap: 10px;
 }
+
 .footer__item_pages-title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px; 
+  line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #c0c0c0;
   text-decoration: none;
 }
+
 .footer__item_pages {
   font-weight: 400;
   font-size: 14px;
@@ -689,38 +705,43 @@ body {
 
 .footer__subscride {
   max-width: 1168px;
-  min-height: 136px;  
+  min-height: 136px;
   border-top: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
-  padding-bottom: 56px;
   display: flex;
   justify-content: space-between;
-  padding-top: 36px;
   padding-bottom: 36px;
+  padding-top: 36px;
 }
 
 .footer__subscride_block {
   max-width: 280px;
   min-height: 60px;
 }
+
 .footer__subscride_title {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px; 
+  line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+
 .footer__subscride_text {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
   color: #c0c0c0;
 }
+
 .footer__subscride_form {
   position: relative;
 }
+
 .footer__subscride_form-email {
+  content: "";
+  position: absolute;
   width: 458px;
   height: 52px;
   border: none;
@@ -728,7 +749,9 @@ body {
   border-radius: 15px;
   padding: 0;
   margin-top: 4px;
+  right: 0px;
 }
+
 .footer__subscride_form-buttons {
   content: "";
   position: absolute;
@@ -739,23 +762,35 @@ body {
   cursor: pointer;
   border-radius: 11px;
   padding: 0;
-  left: 389px;
-  bottom: 15px;
+  z-index: 1;
+  right: 7px;
+  top: 15px;
 }
 
 .footer__copyright {
+  padding-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 104px;
 }
+
 .footer__copyright_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+
 }
+
 .footer__icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
+
 .footer__icon {
+  align-self: center;
 }
-
-
-
-
-
 
 /* Media */
 @media screen and (max-width: 1400px) {
@@ -771,6 +806,7 @@ body {
     margin-left: 780px;
   }
 }
+
 @media screen and (max-width: 1300px) {
   .header__inner {
     margin-left: 100px;
@@ -859,6 +895,15 @@ body {
   }
 
   .footer__subscride {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 99px;
+    padding-top: 36px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .footer__copyright {
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -871,6 +916,12 @@ body {
 
   .navigation__button {
     margin: 10px;
+  }
+
+  .footer__subscride {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
 
@@ -941,10 +992,9 @@ body {
     padding-top: 50px;
   }
 
-  .footer__subscride {
-    flex-direction: column;
-    text-align: center;
-    
+  .footer {
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .footer__subscride_block {
@@ -952,9 +1002,9 @@ body {
     padding-bottom: 20px;
   }
 
-  .footer__subscride_form-buttons {
-    left: 450px;
-    top: 15px;
+  .footer__subscride_form-email {
+    max-width: 250px;
+    min-height: 52px;
   }
 }
 
@@ -982,9 +1032,14 @@ body {
     padding-left: 15px;
   }
 
-  .footer__subscride_form-buttons {
-    left: 410px;
-    top: 15px;
+  .footer__copyright {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer__icons {
+    justify-content: center;
   }
 }
 
@@ -1022,11 +1077,6 @@ body {
   .footer__subscride_form-email {
     width: 380px;
     height: 52px;
-}
-
-  .footer__subscride_form-buttons {
-    left: 320px;
-    top: 15px;
   }
 }
 
@@ -1096,6 +1146,7 @@ body {
     padding-right: 15px;
     padding-left: 15px;
   }
+
   .settings__items {
     display: flex;
     justify-content: flex-end;
@@ -1112,7 +1163,7 @@ body {
   .photography__title {
     font-size: 12px;
   }
-  
+
   .photography__text {
     font-size: 12px;
   }
@@ -1148,6 +1199,7 @@ body {
   .write__block_title {
     font-size: 34px;
   }
+
   .write__block_text {
     font-size: 20px;
   }
@@ -1155,23 +1207,6 @@ body {
   .footer__subscride_form-email {
     width: 280px;
     height: 52px;
-}
-
-  .footer__subscride_form-buttons {
-    left: 240px;
-    top: 15px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .footer__subscride_form-email {
-    width: 250px;
-    height: 52px;
-}
-
-  .footer__subscride_form-buttons {
-    left: 180px;
-    top: 15px;
   }
 }
 
