@@ -108,6 +108,21 @@ body {
   cursor: pointer;
   border-radius: 15px;
   margin-right: 22px;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.navigation__button:hover {
+  background: #c0c0c0;
+}
+
+.navigation__button:focus-visible {
+  outline-color: #000000;
+}
+
+.navigation__button:active {
+  transform: scale(0.9);
 }
 
 /* Promo */
@@ -271,6 +286,21 @@ body {
   padding-right: 8px;
   top: 528px;
   left: 28px;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.specialized__gallery_button:hover {
+  background: #c0c0c0;
+}
+
+.specialized__gallery_button:focus-visible {
+  outline-color: #000000;
+}
+
+.specialized__gallery_button:active {
+  transform: scale(0.9);
 }
 
 .specialized__gallery_title-photo {
@@ -321,6 +351,21 @@ body {
   padding-right: 8px;
   top: 525px;
   left: 28px;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.specialized__gallery_button-photo:hover {
+  background: #c0c0c0;
+}
+
+.specialized__gallery_button-photo:focus-visible {
+  outline-color: #000000;
+}
+
+.specialized__gallery_button-photo:active {
+  transform: scale(0.9);
 }
 
 /* Photo sunset*/
@@ -431,6 +476,21 @@ body {
   border-radius: 15px;
   padding-bottom: 2px;
   padding-right: 6px;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.tools__item_block-button:hover {
+  background: #c0c0c0;
+}
+
+.tools__item_block-button:focus-visible {
+  outline-color: #000000;
+}
+
+.tools__item_block-button:active {
+  transform: scale(0.9);
 }
 
 .tools__item_photo {
@@ -521,6 +581,13 @@ body {
 
 .clients_item_logo {
   align-self: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.clients_item_logo:hover {
+  transform: scale(1.2);
 }
 
 /* Photo starfall */
@@ -599,6 +666,21 @@ body {
   padding-bottom: 2px;
   padding-right: 10px;
   margin: 0 auto;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.write__block_button:hover {
+  background: #c0c0c0;
+}
+
+.write__block_button:focus-visible {
+  outline-color: #000000;
+}
+
+.write__block_button:active {
+  transform: scale(0.9);
 }
 
 .write__block_button-item {
@@ -703,7 +785,7 @@ body {
   color: #ffffff;
 }
 
-.footer__subscride {
+.footer__subscribe {
   max-width: 1168px;
   min-height: 136px;
   border-top: 2px solid #ffffff;
@@ -714,12 +796,12 @@ body {
   padding-top: 36px;
 }
 
-.footer__subscride_block {
+.footer__subscribe_block {
   max-width: 280px;
   min-height: 60px;
 }
 
-.footer__subscride_title {
+.footer__subscribe_title {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -728,18 +810,18 @@ body {
   padding-bottom: 20px;
 }
 
-.footer__subscride_text {
+.footer__subscribe_text {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
   color: #c0c0c0;
 }
 
-.footer__subscride_form {
+.footer__subscribe_form {
   position: relative;
 }
 
-.footer__subscride_form-email {
+.footer__subscribe_form-email {
   content: "";
   position: absolute;
   width: 458px;
@@ -752,7 +834,7 @@ body {
   right: 0px;
 }
 
-.footer__subscride_form-buttons {
+.footer__subscribe_form-buttons {
   content: "";
   position: absolute;
   width: 63px;
@@ -765,6 +847,21 @@ body {
   z-index: 1;
   right: 7px;
   top: 15px;
+  transition-property: background-color, transform;
+  transition-duration: 0.3s, 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.footer__subscribe_form-buttons:hover {
+  border: 2px solid #c0c0c0;
+}
+
+.footer__subscribe_form-buttons:focus-visible {
+  outline-color: #c0c0c0;
+}
+
+.footer__subscribe_form-buttons:active {
+  transform: scale(0.9);
 }
 
 .footer__copyright {
@@ -790,6 +887,13 @@ body {
 
 .footer__icon {
   align-self: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.footer__icon:hover {
+  transform: scale(1.5);
 }
 
 /* Media */
